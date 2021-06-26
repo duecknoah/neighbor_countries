@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>REST Countries</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
+</head>
+<body onload="loadWorldData();">
+  <h1>REST Countries</h1>
+  <input id="country_input" type="text" placeholder="Canada">
+  <button id="submit_country_input" type="button" onclick="getRestCountries();">Get Country and Neighbors</button>
+  <div id="countries_list" class="countriesList"></div>
+</body>
+</html>
